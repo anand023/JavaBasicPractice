@@ -10,4 +10,3 @@
 * **Immutable** class means that once an object is created, **we cannot change its content**. _In Java, all the wrapper classes (like Integer, Boolean, Byte, Short) and String class is immutable. We can create our own immutable class as well._ 
 
 
-Hello
