@@ -1,4 +1,4 @@
-package immutable;
+package miscellaneous;
 
 public class PerfectSquare {
     public static void main(String[] args) {
