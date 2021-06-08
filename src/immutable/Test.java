@@ -22,6 +22,8 @@ class Test {
 
         s.getMetadata().put("4", "fourth");
         System.out.println(s.getMetadata()); // Remains unchanged due to deep copy in getter
+        B b=new B();
+        B b2= new B();
     }
 }
 

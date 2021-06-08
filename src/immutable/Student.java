@@ -3,7 +3,7 @@ package immutable;
 import java.util.HashMap;
 import java.util.Map;
 
-public final class Student {
+    public final class Student {
     private final String name;
     private final int regNo;
     private final Map<String, String> metadata;

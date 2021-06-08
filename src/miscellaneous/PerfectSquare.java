@@ -10,6 +10,8 @@ public class PerfectSquare {
         //calculating the square root of the given number
         double sqrt = Math.sqrt(number);
         //finds the floor value of the square root and comparing it with zero
+        int[] arr= new int[4];
+        String[] str = new String[3];
         return ((sqrt - Math.floor(sqrt)) == 0);
     }
 }
