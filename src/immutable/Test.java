@@ -1,5 +1,7 @@
 package immutable;
 
+import singleton.SingleTonWithPublicConstructor;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,6 +26,8 @@ class Test {
         System.out.println(s.getMetadata()); // Remains unchanged due to deep copy in getter
         B b=new B();
         B b2= new B();
+
+
     }
 }
 

@@ -1,3 +1,5 @@
+package immutable;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ final class Box {
             this.values.add(values.get(i));
         }
     }
-    public List<Integer> getValues(){
+    /*public List<Integer> getValues(){
         return List.copyOf(this.values);
-    }
+    }*/
 }

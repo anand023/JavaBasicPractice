@@ -3,7 +3,7 @@ package immutable;
 import java.security.PublicKey;
 
 class A {
-    A a;
+    static A a;
      A(){
         if (a!=null){
             throw new IllegalArgumentException();
@@ -12,7 +12,7 @@ class A {
 }
 
 class B extends A {
-    B b;
+    static B b;
      B(){
         if (b!=null){
             throw new IllegalArgumentException();
